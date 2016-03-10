@@ -261,7 +261,7 @@ ul.navbar-nav {
 	/*text-indent: -99999px;*/
 }
 
-.navbar-brand:visited { color: white; }
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:visited { color: white; }
 
 /***** Top content *****/
 
