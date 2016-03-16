@@ -329,6 +329,10 @@ ul.navbar-nav {
 	width: 320px;
 }
 
+.subscribe input.subscribe-zip-code {
+  width: 160px;
+}
+
 .subscribe .success-message {
 	display: none;
 	opacity: 0.8;

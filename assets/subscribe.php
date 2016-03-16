@@ -1,10 +1,13 @@
 <?php
 
     $subscriber_email = addslashes(trim($_POST['email']));
+    $subscriber_zip_code = addslashes(trim($_POST['zip-code']));
+
     $url = 'http://rcycl.herokuapp.com/subscribers';
     $json = array(
          "subscriber" => array(
             "email" => $subscriber_email,
+            "zip_code" => $subscriber_zip_code
          )
     );
 

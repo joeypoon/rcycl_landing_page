@@ -95,9 +95,11 @@
 	                			<form class="form-inline" role="form" action="assets/subscribe.php" method="post">
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="subscribe-email">Email address</label>
-			                        	<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
-			                        </div>
-			                        <button type="submit" class="btn">Subscribe</button>
+			                        	<input type="text" name="email" placeholder="Email" class="subscribe-email form-control" id="subscribe-email">
+                              <label class="sr-only" for="subscribe-zip-code">Zip Code</label>
+                                <input type="text" name="zip-code" placeholder="Zip Code" class="subscribe-zip-code form-control" id="subscribe-zip-code">
+                            </div>
+		                        <button type="submit" class="btn">Subscribe</button>
 			                    </form>
 			                    <div class="success-message"></div>
 			                    <div class="error-message"></div>
