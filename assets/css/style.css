@@ -333,6 +333,13 @@ ul.navbar-nav {
   width: 160px;
 }
 
+@media (max-width: 767px) {
+  .subscribe input.subscribe-zip-code {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
 .subscribe .success-message {
 	display: none;
 	opacity: 0.8;
