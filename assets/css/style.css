@@ -749,3 +749,11 @@ footer {
 .footer-copyright {
 	margin-top: 25px;
 }
+
+.subscription-alert {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  border-radius: 0;
+  display: none;
+}
