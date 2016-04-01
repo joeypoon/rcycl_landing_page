@@ -66,16 +66,14 @@ jQuery(document).ready(function() {
 	*/
 	$('.subscribe form').submit(function(e) {
 		e.preventDefault();
-	    var postdata = $('.subscribe form').serialize();
-	    $.ajax({
-	        type: 'POST',
-	        url: 'assets/subscribe.php',
-	        data: postdata,
-	        dataType: 'json',
-	        success: function(json) {
-	          $('.subscription-alert').show();
-	        }
-	    });
+		$('.subscription-alert').show();
+    var postdata = $('.subscribe form').serialize();
+    $.ajax({
+        type: 'POST',
+        url: 'assets/subscribe.php',
+        data: postdata,
+        dataType: 'json'
+    });
 	});
 
 });
